@@ -1,0 +1,18 @@
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #25ddfe;
+    color: white;
+    font-size: 30px;
+    border-radius: 6px;
+}
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #25ddfe ;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+}
