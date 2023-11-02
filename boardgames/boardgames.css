@@ -1,3 +1,16 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+background-color: rgb(255, 255, 255);
+color: black;
+
+}
+
+
 .header {
     padding: 20px;
     text-align: center;
@@ -11,7 +24,7 @@
 .footer {
     padding: 20px;
     text-align: center;
-    background: #25ddfe ;
+    background: #25ddfe;
     color: white;
     font-size: 15px;
     border-radius: 6px;
