@@ -1,6 +1,7 @@
 body{
-background-color: antiquewhite;
 height: 2000px;
+font-family: arial;
+animation: colorchange 5s infinite;
 }
 
 #box-1 {
@@ -24,3 +25,8 @@ height: 2000px;
     color: white;
     font-size: 50px;
 }
+
+@keyframes colorchange {
+    from {background-color: red;}
+    to {background-color: blue;}
+    }
