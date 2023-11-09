@@ -2,6 +2,7 @@ html {
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    width: 850px
 }
 
 h1 {
@@ -10,14 +11,22 @@ color: black;
 
 }
 
+h2 {
+    margin-bottom: 2px;
+}
+
 
 .header {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background: #25ddfe;
     color: white;
     font-size: 30px;
-    border-radius: 6px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+    margin-top: 10px;
+    border-color: red;
 }
 
 
@@ -28,4 +37,12 @@ color: black;
     color: white;
     font-size: 15px;
     border-radius: 6px;
+}
+
+section{
+    padding: 50px;
+}
+
+h3 > p{
+    margin-bottom: 5px;
 }
