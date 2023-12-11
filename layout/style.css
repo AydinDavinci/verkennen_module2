@@ -1,0 +1,81 @@
+.grid-container{
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #2196F3;
+  padding: 10px;
+  
+}
+
+.grid-container>*{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+}
+
+@media screen and (min-width : 768px){
+
+  .grid-container{
+    grid-template-columns: [col1-start]20% [col2-start]auto[col2-end];
+    background-color: red;
+  }
+
+  .grid-container>header{   
+    grid-column-start: col1-start;
+    grid-column-end: col2-end;
+  }
+  .grid-container>nav{
+    grid-column-start: col1-start;
+    grid-column-end: col2-start;
+    grid-row-start: 2;
+    grid-row-end: 5;  
+  }
+  .grid-container>footer{
+    grid-column-start: col1-start;
+    grid-column-end: col2-end;
+  }
+  .grid-container>section{
+    grid-column-start: col2-start;
+    grid-column-end: col2-end;
+  }
+  .grid-container>aside {
+    grid-column-start: col1-start;
+    grid-column-end: col2-end;
+  }
+
+}
+
+@media screen and (min-width : 992px){
+
+  .grid-container{
+    grid-template-columns: [col1-start]20% [col2-start]auto [col3-start]20%[col3-end];
+    background-color: red;
+  }
+
+  .grid-container>header{   
+    grid-column-start: col1-start;
+    grid-column-end: col2-end;
+  }
+  .grid-container>nav{
+    grid-column-start: col1-start;
+    grid-column-end: col2-start;
+    grid-row-start: 2;
+    grid-row-end: 5;  
+  }
+  .grid-container>footer{
+    grid-column-start: col1-start;
+    grid-column-end: col2-end;
+  }
+  .grid-container>section{
+    grid-column-start: col2-start;
+    grid-column-end: col2-end;
+  }
+  .grid-container>aside {
+    grid-column-start: col3-start;
+    grid-column-end: col3-end;
+    grid-row-start: 2;
+    grid-row-end: 5;  
+    
+  }
+
+}
